@@ -1,5 +1,4 @@
 import csv
-import json
 import os
 
 class Aluno:
@@ -96,8 +95,7 @@ class SistemaCadastro:
 
         if not encontrado:
             print('\nNão encontrado, verifique se tudo foi digitado corretamente')
-
-    @staticmethod
+    
     def informacao():
         print('\n---------------------------------------------')
         print('OPÇÕES-MENU')
@@ -107,8 +105,7 @@ class SistemaCadastro:
         print('[3] Para deletar/alterar perfil do(a) aluno(a)')
         print('[0] Para sair')
         print('---------------------------------------------')
-
-    @staticmethod
+    
     def informacao2():
         print('\n---------------------------------------------')
         print('ALTERAR/DELETAR:')
@@ -122,7 +119,6 @@ class SistemaCadastro:
         print('[0] para voltar ao menu principal')
         print('---------------------------------------------')
 
-    @staticmethod
     def informacao3():
         print('\n------------------------------------------')
         print('BUSCAR DADOS:')
